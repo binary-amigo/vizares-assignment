@@ -114,6 +114,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 p-4">
+    <h1 className='text-4xl text-center p-4 font-extrabold text-blue-500'>Manage tasks easily</h1>
       {/* Search Bar */}
       <div className="max-w-6xl mx-auto mb-8 pt-4">
         <div className="relative">
