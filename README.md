@@ -37,7 +37,10 @@ This is a simple task management application built using React. It allows users 
    - Clone the [backend repo](https://github.com/binary-amigo/todo-backend.git).
    - Make sure your backend is running and accessible via a URL.
 
-   - In the frontend project, update the backend URI in the appropriate config file or environment variables, depending on how the app is structured. (Example: `.env` file or API setup in the source code.)
+   - In the frontend project, update the backend URI in the appropriate config file or environment variables.
+   ```bash
+   VITE_BACKEND_URI="your-backend-url"
+   ```
 
 4. Run the application:
    ```bash
